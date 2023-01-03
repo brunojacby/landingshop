@@ -1,0 +1,411 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box;
+    
+}
+
+:root {
+    --white: #FFFFFF;
+    --darkgrey: #707070;
+    --grey: #888888;
+    --lightgrey: #00000029;
+
+
+}
+.container {
+    font-family: 'Open Sans', sans-serif;
+     
+}
+
+
+/*********
+  HEADER
+***********/
+
+.head {
+    width: 100vw;    
+}
+
+#header {
+    background: var(--darkgrey);
+    color: var(--white);
+    text-align: center;
+    display: block;
+    justify-content: center;
+    padding: 50px;
+    border: none;
+    width: 100%;
+    
+}
+
+#efeito1 {
+    border-style: solid;
+    border-color: var(--darkgrey) transparent;
+    border-width: 50px 0px 0px 100vw;
+    
+}
+
+#header div {
+    margin-bottom: 50px;
+    
+}
+
+#header h1 {
+    font-size: 2em; 
+    font-weight: bold;
+    
+}
+
+#header h2 {
+    font-size: 1em;
+    font-weight: 200;
+}
+
+#header h3 {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 0.8em;
+    font-weight: 100;
+    
+}
+
+
+#nav a {
+    background-color: white;
+    padding: 5px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 12px;
+    box-shadow: 5px 5px 5px #00000029;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    width: 160px;
+}
+
+
+/**********
+    FORM
+**********/
+
+#form {
+    display: flex;
+    padding: 100px;
+    color: var(--darkgrey);
+}
+
+#text {
+    width: 66%;
+}
+
+#text h2, p {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#registration {
+    width: 33%;
+}
+
+
+#resform div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+#resform div input {
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+}
+
+#formsex div {
+    flex-direction: row;
+}
+
+#formsex div label {
+    margin-right: 50px;
+    margin-left: 5px;
+    
+}
+
+#dadosform .sex {
+    margin-top: 5px;
+}
+
+
+#resform #btn {
+    color: var(--darkgrey);
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: white;
+    font-size: 1em;
+    
+}
+
+
+/**************
+    PRODUCTS
+***************/
+#products {
+    width: 100%;
+    text-align: center;
+}
+
+#prod1 {
+    display: inline-flex;
+    margin-bottom: 50px;
+    color: var(--darkgrey);
+    font-size: 14px;
+}
+
+#prod2 {
+    margin: 0px 150px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 25px;
+}
+
+#prod2 > div {
+    width: 100%;
+    display: block;
+    text-align: start;
+    color: var(--grey);
+    margin-bottom: 5px;
+}
+
+
+#prod2 button {
+    color: var(--grey);
+    width: 50%;
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid var(--grey);
+    font-size: 14px;
+    margin-top: 5px;
+    background-color: #FFFFFF;
+}
+
+
+#prod2 img {
+    width: fit-content;
+    align-items: center;
+    border: 1px solid var(--darkgrey);
+}
+
+#prod2 h3 {
+    font-size: 1em;
+    margin-bottom: 5px;
+    font-weight: 500;
+    
+}
+
+#prod2 p {
+    font-size: 0.8em;
+    margin-bottom: 5px;
+    padding: 0;
+    
+}
+
+#prod2 span {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+   
+}
+
+#prod3 button {
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+    color: var(--darkgrey);
+    font-size: 16px;
+    margin: 50px 0px 100px 0px;
+}
+
+
+/**************
+   NEWSLETTER
+***************/
+#newsletter {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+    display: block;
+    color: var(--darkgrey);
+    
+}
+
+#newsletter button {
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+    padding: 10px 50px;
+    background-color: white;
+    margin-top: 20px;
+    color: var(--darkgrey);
+}
+
+#textname {
+    display: inline-flex;
+    position: relative;
+}
+
+.nameform {
+    top: -5px;
+    left: 10px;
+    position: absolute;
+    color: var(--darkgrey);
+    background-color: #FFFFFF;
+}
+
+#news1 {
+    position: relative;
+    display: inline-flex;
+    vertical-align: top;
+    
+    
+}
+
+#news1 h2 {
+    margin-bottom: 50px;
+    font-size: 18px;
+}
+
+#idform {
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+#idform input {
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+    padding: 8px 30px;
+    background-color: white;
+    margin-top: 5px;
+    font-size: 16px;
+    color: var(--darkgrey);
+}
+
+#submitnews {
+    padding: 10px 50px;
+    background-color: white;
+    margin-top: 10px;
+    border: 1px solid var(--darkgrey);
+    border-radius: 4px;
+}
+
+#idform input {
+    margin-right: 40px;
+}
+
+#idform label {
+    margin-right: 5px;
+}
+
+
+/************
+    FOOTER
+**************/
+
+
+#efeito2 {
+    border-style: solid;
+    border-color: var(--darkgrey) transparent;
+    border-width: 0px 0px 50px 98vw;
+}
+
+
+#footer {
+    background: var(--darkgrey);
+    color: var(--white);
+    text-align: center;
+    font-size: 12px;
+    padding: 20px 0px;
+    border: 1px solid var(--darkgrey);
+    width: 100%;
+    height: 200px;
+}
+
+
+@media only screen and (max-width: 420px) {
+    #container {
+        max-width: 420px;
+    }
+
+    #header {
+      text-align: start;
+      
+    }
+    
+    #nav {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 0;
+        position: absolute;
+    }
+
+    #form {
+        display: block;
+        padding: 5px;
+        width: 100vw;
+        margin: 10px 0px;
+    }
+    #text {
+        width: 100%;
+    }
+
+    #registration {
+        width: 100%;
+    }
+
+    #products {
+      display: block;
+      text-align: center;  
+            
+    }
+
+    #prod2 {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
+        margin: 20px;
+        padding: 0;
+    }
+
+   #newsletter {
+    display: block;
+    margin: 5px;
+    padding: 0;
+   }
+
+   #idform {
+    text-align: center;
+    display: block;
+    justify-content: center ;
+    }
+
+    #textname {
+        margin-bottom: 20px;
+    }
+    #newsletter button {
+        margin-bottom: 50px;
+    }
+
+    #footermain {
+        margin-top: 100px;
+    }
+}
